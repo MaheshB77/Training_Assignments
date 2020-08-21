@@ -1,0 +1,125 @@
+// Program 1
+#include<stdio.h>
+int main(){
+    int temp1=0,temp2=1,start=4,end=10;
+
+    for (int i = 5; i <= 50; i+=5)
+    {
+        for(int j = i; j<=i*2; j+=temp2)
+        {
+            printf("%d\t",j);
+        }
+        printf("\n");
+        temp2++;
+    }
+}
+// Output
+5       6       7       8       9       10
+10      12      14      16      18      20
+15      18      21      24      27      30
+20      24      28      32      36      40
+25      30      35      40      45      50
+30      36      42      48      54      60
+35      42      49      56      63      70
+40      48      56      64      72      80
+45      54      63      72      81      90
+50      60      70      80      90      100
+
+
+
+// Program 2
+#include<stdio.h>
+int main(){
+    for(int i=1; i<=5; i++)
+    {
+        for(int j=5; j>=i; j--)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
+// Output
+*****
+****
+***
+**
+*
+
+// Program 3
+#include<stdio.h>
+int main(){
+    int arrSize = 8;
+    int avg = 0, sum = 0;
+    int arr[]={2,7,1,4,9,0,1,8};
+
+    for(int i=0; i<arrSize; i++)
+    {
+        sum += arr[i];
+    }
+    avg = sum/arrSize;
+
+    printf("Average is : %d", avg);
+
+}
+// Output
+Average is : 4
+
+
+
+// Program 4
+#include<stdio.h>
+int main(){
+    int num1,num2,num3;
+
+    printf("Enter three numbers : ");
+    scanf("%d%d%d",&num1,&num2,&num3);
+
+    if(num1>num2)
+    {
+        if(num1>num3)
+        {
+            printf("Greater number is : %d",num1);
+        }
+        else
+        {
+            printf("Greater number is : %d",num3);
+        }
+    }
+    else
+    {
+        if(num2>num3)
+        {
+            printf("Greater number is : %d",num2);
+        }
+        else
+        {
+            printf("Greater number is : %d",num3);
+        }        
+    }
+    
+}
+// Output
+Enter three numbers : 6 9 2
+Greater number is : 9
+
+
+
+// Program 5
+#include<stdio.h>
+int main(){
+    int target=0,num1=0,num2=1,temp=0;
+    printf("Enter a number upto which you want the fibonacci series : ");
+    scanf("%d",&target);
+    while (target!=0)
+    {
+        printf("%d ",num1);
+        temp = num1+num2;
+        num1 = num2;
+        num2 = temp;
+        target--;
+    }
+}
+// Output
+Enter a number upto which you want the fibonacci series : 8
+0 1 1 2 3 5 8 13
