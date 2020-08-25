@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 2</title>
+</head>
+<style>
+    .container{
+        margin : 10px 250px;
+        border: 2px solid black;
+
+    }
+    h3 {
+    width: 100%; 
+    border-bottom: 2px solid #000; 
+    line-height: 1px;
+    margin: 10px 0 20px; 
+    }
+    h3 span { 
+    background:white; 
+    padding:0 5px; 
+    }
+    .tabs{
+        display: flex;  
+    }
+    .inpt{
+        padding-left: 150px;
+    }
+    .tab2{
+        margin-left: auto;
+    }
+    .eduTable{
+        overflow: scroll;
+        margin-top: 30px;
+    }
+    .btns{
+        border: 1px solid black;
+        padding: 4px 4px;
+        margin-right: 4px;
+    }
+    .tab3{
+        width: 95%;
+        margin-right: 40px;
+        margin-bottom: 40px;
+
+    }
+</style>
+<body>
+    <div class="container">
+        <h3> <span>Personal Information :  </span> </h3>
+
+        <div class="tabs">
+            <table class="tab1">
+                <tr>
+                    <td>ID</td>
+                    <td class="inpt"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td class="inpt"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td class="inpt"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Father Name</td>
+                    <td class="inpt"><input type="text"></td>
+                </tr>
+
+
+            </table>
+            <table class="tab2">
+                <tr>
+                    <td>Age</td>
+                    <td class="inpt"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td class="inpt"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>State</td>
+                    <td class="inpt"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Pincode</td>
+                    <td class="inpt"><input type="text"></td>
+                </tr>
+            </table>
+        </div>
+        
+    <div class="eduTable">
+        <table class="tab3" border="2px">
+            <thead>Educational Information : </thead>
+            <tbody>
+                <tr>
+                    <th>Year</th>
+                    <th>Education</th>
+                    <th>Percentage</th>
+                    <th>Result</th>
+                    <th>Select Row</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="radio"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="btns" style="margin-top: 20px;">
+        <input type="button" value="Add Row">
+        <input type="button" value="Delete Row">
+    </div>
+    <div class="btns">
+        <input type="button" value="Save Detail">
+        <input type="button" value="Preview Detail">
+        <input type="button" value="Cancel">
+    </div>
+    <div class="btns">
+        <input type="button" value="Stringify Detail">
+    </div>
+</body>
+</html>
