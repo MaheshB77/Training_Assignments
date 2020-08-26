@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 3</title>
+    <style>
+        .container{
+            margin: 5px 415px;
+        }
+        table.tab1{
+            width: 100%;
+        }
+        .lt{
+            text-align: left;
+            width: 33%;
+        }
+        .rt{
+            text-align: right;
+            width: 33%;
+        }
+        .md{
+            text-align: center;
+            width: 33%;
+        }
+        table, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        .tab2{
+            margin: 50px 0px;
+        }
+        table.tab2{
+            width: 100%;
+            empty-cells: show;
+        }
+        table.tab3{
+            width: 100%;
+            empty-cells: show;
+        }
+        .tab4{
+            width: 100%;
+        }
+        table.tab5{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <table class="tab1">
+                <tr>
+                    <td class="lt">left</td>
+                    <td class="md">center</td>
+                    <td class="rt">right</td>
+                </tr>
+                <tr>
+                    <td class="lt">left</td>
+                    <td class="md">center</td>
+                    <td class="rt">right</td>
+                </tr>
+                <tr>
+                    <td class="lt">left</td>
+                    <td class="md">center</td>
+                    <td class="rt">right</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table class="tab2">
+                <tr>
+                    <td colspan="6">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td colspan="3" rowspan="2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="6">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table class="tab3">
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                        <table class="tab4">
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+
+
+            </table>
+        </div>
+        <div>
+            <table class="tab5">
+                <tr>
+                    <td colspan="3" 
+                    style="background-color: darkolivegreen;">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td style="width: 70%;">
+                        <img src="img/java_img.jpg" alt="Java Image"
+                        style="height: 250px;
+                        width: 95%;
+                        background-size: auto;
+                        padding: 20px 0px;">
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="3" 
+                    style="background-color:darkslateblue">
+                        &nbsp;
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
