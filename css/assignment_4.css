@@ -1,0 +1,87 @@
+/* Removing default margin and padding from all elements */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Using CSS Grid for the layout */
+.box-1{
+    background: gray;
+}
+.box-2{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.box-3{
+    color: white;
+    text-align: center;
+    grid-column: 1/3;
+    background: rgb(0, 0, 165);
+}
+.box-3 h5{
+    padding-top: 7px;
+}
+.box-4{
+    font-size: 2rem;
+    color: white;
+    background: rgb(0, 0, 165);
+    text-align: right;
+}
+.box-4 h2{
+    padding:60px 15px;
+}
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 95% 5%;
+}
+/* Designing the From */
+.add-room-from{
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.frm h2{
+    text-align: center;
+    padding: 10px 0px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns button{
+    margin: 10px 10px;
+    padding: 2px 20px;
+    border-radius: 10px;
+}
+form td{
+    padding: 7px 5px;
+}
+input,select{
+    padding: 2px;
+    border-radius: 10px;
+}
+textarea{
+    padding: 2px;
+    border-radius: 12px;
+}
+.td-ip{
+    text-align: center;
+    padding-left: 90px;
+}
+
+/* Designing the navbar */
+.box-1{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+nav{
+    padding-left: 40px ;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 40px;
+}
