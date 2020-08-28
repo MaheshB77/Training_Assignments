@@ -88,3 +88,18 @@ li{
     list-style-type: none;
     padding-bottom: 40px;
 }
+
+/* Dashboard */
+.dashboard{
+    text-align: center;
+}
+
+/* User Details */
+.user-details{
+    text-align: center;
+}
+
+/* Account */
+.account{
+    text-align: center;
+}
