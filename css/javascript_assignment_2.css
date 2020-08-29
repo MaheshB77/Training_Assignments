@@ -1,0 +1,36 @@
+.calc{
+    background: linear-gradient(to right,red,blue);
+    margin: 10% 33%;
+}
+.display{
+    /* background: tomato; */
+    background: linear-gradient(to right, blue, red);
+}
+
+.display input{
+    width: 80%;
+    height: 30px;
+    margin: 10px 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+table{
+    width: 80%;
+    margin: 10px 40px;
+}
+
+button{
+    font-size: large;
+    width: 80%;
+    border-radius: 5px;
+    margin: 2px 5px;
+    background: violet;
+}
+.footer{
+    width: 80%;
+    margin: 10px 40px;
+    text-align: right;
+}
+button:hover{
+    background:green;
+}
