@@ -1,0 +1,25 @@
+body {
+  font-size: 25px;
+}
+
+.main {
+  margin: 10% 33%;
+  background: yellowgreen;
+}
+table {
+  width: 100%;
+}
+td {
+  padding: 4px 10px;
+}
+.btns {
+  margin: 10px;
+  width: 100%;
+}
+button {
+  margin: 5px;
+  height: 30px;
+}
+input {
+  height: 30px;
+}
