@@ -1,12 +1,13 @@
 // Showing all input fields from alert()
 function submitData() {
-  let data = "";
+  let dataArray = [];
   let allInputs = document.getElementsByClassName("data");
   let allInputsArray = Array.prototype.slice.call(allInputs);
   allInputsArray.forEach((element) => {
-    data += element.value + " ";
+    dataArray.push(element.value);
   });
-  alert(data);
+  console.clear();
+  console.log(dataArray);
 }
 
 // Clearing all the inputs
