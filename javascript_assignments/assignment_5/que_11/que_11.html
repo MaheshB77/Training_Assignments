@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 11</title>
+    <link rel="stylesheet" href="./que_11.css" />
+  </head>
+  <body>
+    <div class="main">
+      <p id="q">
+        Q. Display 'Mobile' details in text box and display information on same
+        page with validation.
+      </p>
+      <table>
+        <tr>
+          <td><label for="brand">Brand : </label></td>
+          <td>
+            <input type="text" id="brand" placeholder="Enter brand name" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="model">Model : </label></td>
+          <td><input type="text" id="model" placeholder="Enter model" /></td>
+        </tr>
+        <tr>
+          <td><label for="price">Price : </label></td>
+          <td>
+            <input type="text" id="price" placeholder="Enter the price" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <button type="button" onclick="validate()">Validate</button>
+      <h2 id="result"></h2>
+    </div>
+    <script src="./que_11.js"></script>
+  </body>
+</html>

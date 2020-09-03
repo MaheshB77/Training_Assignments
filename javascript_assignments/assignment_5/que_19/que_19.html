@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 19</title>
+    <link rel="stylesheet" href="./que_19.css" />
+  </head>
+  <body>
+    <div class="main">
+      <p id="q">
+        Q. Validate whether a given value type is error or not Ex-function
+        is_Error(input) { return input instanceof Error || toString.call(input)
+        === '[object Error]'; }
+      </p>
+      <br />
+      <p id="q1">isError(new Error('foo')) :</p>
+      <p id="q2">isError(100) :</p>
+      <p id="q3">isError('foo') :</p>
+      <button id="subm" type="button" onclick="ans()">See the output</button>
+      <h2 id="result"></h2>
+    </div>
+    <script src="./que_19.js"></script>
+  </body>
+</html>
