@@ -1,0 +1,37 @@
+body {
+  background-image: linear-gradient(to right, #993300, #003366);
+}
+.main {
+  margin: 5% 33%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  height: 20px;
+  width: 250px;
+  margin: 5px;
+}
+
+button {
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: green;
+}
+
+#q {
+  background: #ff6f01;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px;
+}
+#result {
+  text-align: left;
+  font-size: 23px;
+}
