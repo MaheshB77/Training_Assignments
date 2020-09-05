@@ -12,6 +12,7 @@ export default class Form extends Component {
     };
   }
 
+  // Validation
   doValidation = (event) => {
     let firstName = this.state.firstName;
     let lastName = this.state.lastName;
@@ -33,9 +34,17 @@ export default class Form extends Component {
     let element = event.target.id;
     this.setState({ [element]: event.target.value });
   };
+
+  // Clearing fields
+  clearFields = (event) => {
+    this.state.firstName = "";
+    this.state.lastName = "";
+    this.state.contactNumber = "";
+    this.state.email = "";
+  };
   render() {
     return (
-      <form className="rt-form" onSubmit={this.doValidation}>
+      <form className="rt-form">
         <h1>Registration Form</h1>
         <table className="rt-form-table">
           <tbody className="rt-form-body">
@@ -102,10 +111,10 @@ export default class Form extends Component {
           </tbody>
         </table>
         <div className="btns">
-          <button id="sub" type="submit">
+          <button id="sub" type="submit" onClick={this.doValidation}>
             Submit
           </button>
-          <button id="clr" type="clear">
+          <button id="clr" type="clear" onClick={this.clearFields}>
             Clear
           </button>
         </div>
