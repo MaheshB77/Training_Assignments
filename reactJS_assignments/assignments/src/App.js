@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Footer from "../src/assignment_2/components/common/Footer";
-import Header from "../src/assignment_2/components/common/Header";
-import Routing from "./assignment_2/route/Routing";
+import Footer from "../src/assignment_3/components/common/Footer";
+import Header from "../src/assignment_3/components/common/Header";
+import Routing from "./assignment_3/route/Routing";
 import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
@@ -13,6 +13,13 @@ function App() {
       <Footer /> */}
 
       {/*  ********** Assignment 2 **********  */}
+      {/* <Router>
+        <Header />
+        <Routing />
+        <Footer />
+      </Router> */}
+
+      {/* ********** Assignment 3 ********** */}
       <Router>
         <Header />
         <Routing />

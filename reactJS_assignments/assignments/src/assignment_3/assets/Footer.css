@@ -1,0 +1,45 @@
+.Footer {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  height: 10vh;
+  background-image: linear-gradient(
+    90deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
+  );
+}
+#email {
+  margin-top: 10px;
+  height: 20px;
+  width: 100px;
+}
+
+#email-submit {
+  margin-left: 0px;
+  background-color: darkgrey;
+}
+.Footer-form {
+  margin-top: 10px;
+  display: flex;
+}
+.Footer-copyright {
+  margin-top: 15px;
+}
+#email-submit:hover {
+  background-color: green;
+}
+.Footer-links {
+  display: flex;
+  flex-direction: column;
+}
+.Footer-lnk {
+  margin-top: 5px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.Footer-lnk:hover {
+  color: orange;
+}
