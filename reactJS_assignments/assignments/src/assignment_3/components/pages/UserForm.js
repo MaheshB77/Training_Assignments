@@ -65,7 +65,7 @@ const StudentForm = () => {
       userPincode: Yup.string()
         .min(6, "Pincode must have 6 digits")
         .max(6, "Pincode must have 6 digits")
-        .required("Pinode is required"),
+        .required("Pincode is required"),
     }),
   });
   return (

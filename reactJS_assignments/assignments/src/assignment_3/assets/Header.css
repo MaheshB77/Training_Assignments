@@ -1,6 +1,6 @@
 img {
   margin-top: 7px;
-  margin-left: 150px;
+  margin-left: 200px;
   width: 50px;
   height: 50px;
 }
@@ -17,7 +17,7 @@ img {
 .Links {
   display: flex;
   justify-content: right;
-  margin-left: 800px;
+  margin-left: 650px;
 }
 .lnk {
   margin: 20px;
