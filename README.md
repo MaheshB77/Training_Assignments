@@ -1,6 +1,6 @@
 # Training Assignments by Liviano
 
-> HTML and CSS Assignments
+> ### HTML and CSS Assignments
 
 <!-- - ([x]) Assignment 1 -->
 
