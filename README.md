@@ -4,9 +4,9 @@
 
 <!-- Adding README.md -->
 
-##### - [x] Assignment 1
-
+- [x] Assignment 1
       ![img](https://github.com/MaheshB77/Training_Assignments/blob/master/html_css_assignments/assignment_1/output.png)
       [See the code of assignment 1](https://github.com/MaheshB77/Training_Assignments/blob/master/html_css_assignments/assignment_1/HTML_Assignment.html)
 
-##### - [x] Assignment 2
+- [x] Assignment 2
+      ![img]()
