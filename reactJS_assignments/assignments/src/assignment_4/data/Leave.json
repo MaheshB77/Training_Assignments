@@ -1,0 +1,22 @@
+[
+  {
+    "emp_id": 1,
+    "emp_name": "Mahesh Bansode",
+    "leave_date": "07/06/2020"
+  },
+  {
+    "emp_id": 2,
+    "emp_name": "Shubhangi Dongre",
+    "leave_date": "18/07/2020"
+  },
+  {
+    "emp_id": 3,
+    "emp_name": "Aishwarya Jorve",
+    "leave_date": "11/07/2020"
+  },
+  {
+    "emp_id": 4,
+    "emp_name": "Swapnil Sutar",
+    "leave_date": "26/07/2020"
+  }
+]

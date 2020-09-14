@@ -1,0 +1,22 @@
+[
+  {
+    "emp_id": 1,
+    "emp_name": "Mahesh Bansode",
+    "emp_salary": 30000
+  },
+  {
+    "emp_id": 2,
+    "emp_name": "Aishwarya Jorve",
+    "emp_salary": 40000
+  },
+  {
+    "emp_id": 3,
+    "emp_name": "Shubhangi Dongre",
+    "emp_salary": 50000
+  },
+  {
+    "emp_id": 4,
+    "emp_name": "Swapnil Sutar",
+    "emp_salary": 60000
+  }
+]

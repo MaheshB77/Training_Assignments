@@ -1,0 +1,15 @@
+.Links {
+  margin: 0;
+  padding: 0;
+  height: 75vh;
+
+  background-color: rgb(163, 149, 149);
+}
+li {
+  text-align: center;
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  /* width: 100%; */
+  padding: 10px;
+  text-decoration: none;
+}

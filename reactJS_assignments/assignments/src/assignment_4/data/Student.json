@@ -1,0 +1,22 @@
+[
+  {
+    "stud_rollno": 1,
+    "stud_name": "Mahesh Bansode",
+    "stud_marks": 91.21
+  },
+  {
+    "stud_rollno": 2,
+    "stud_name": "Shubhangi Dongre",
+    "stud_marks": 93.0
+  },
+  {
+    "stud_rollno": 3,
+    "stud_name": "Aishwarya Jorve",
+    "stud_marks": 99.99
+  },
+  {
+    "stud_rollno": 4,
+    "stud_name": "Swapnil Sutar",
+    "stud_marks": 100.0
+  }
+]

@@ -1,0 +1,34 @@
+.Column {
+  float: left;
+  width: 20%;
+  height: 75vh;
+}
+
+.Student:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Student {
+  background-color: green;
+}
+
+.Student-table th,
+td {
+  padding: 10px 60px;
+  text-align: center;
+  border: 2px solid black;
+}
+.Student-table {
+  margin-left: 100px;
+  border: 4px solid black;
+  text-align: left;
+  margin-top: 20px;
+  width: 900px;
+}
+h1 {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 450px;
+}

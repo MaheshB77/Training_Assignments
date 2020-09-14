@@ -1,0 +1,15 @@
+.Column {
+  float: left;
+  width: 20%;
+  height: 75vh;
+}
+
+.Home:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Home {
+  background-color: green;
+}
