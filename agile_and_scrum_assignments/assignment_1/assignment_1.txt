@@ -1,0 +1,172 @@
+Q 1) Which of the following is delivered at the end of the Sprint?
+a. A document containing test cases for the current sprint
+b. An architectural design of the solution
+c. An increment of Done software
+d. Wireframes designs for User Interface
+
+Ans:
+C. An increment of Done software
+
+--------------------------------------------------------------------------
+
+
+Q 2) Product Backlog should be ordered on the basis of?
+a. Value of the items being delivered
+b. The complexity of the items being delivered
+c. Size of the items being delivered
+d. The risk associated with the items
+e. Based on the Scrum Team choice
+
+Ans:
+A. Value of the items being delivered
+
+--------------------------------------------------------------------------
+
+
+Q 3) When is a Sprint Retrospective ceremony performed?
+a. Whenever the team suggests
+b. At the end of each Sprint
+c. Whenever needed
+d. Whenever the Product Owner suggests
+e. Whenever the Scrum Master suggests
+
+Ans:
+B. At the end of each Sprint
+
+--------------------------------------------------------------------------
+
+
+Q 4) When can a Sprint be canceled?
+a. The Sprint items are no longer needed
+b. Sprint can never be canceled
+c. When Development is unable to complete the work
+d. Information required to start the development is not available
+e. Whenever the Product Owner says
+
+Ans:
+E. Whenever the Product Owner says
+
+--------------------------------------------------------------------------
+
+
+Q 6) ................ are of scrum principles.
+A) Time-boxes
+B) Cross-functional teams
+C) Open communications within the team.
+D) All of above
+E) Both A & B
+
+Ans:
+E. E) Both A & B
+
+--------------------------------------------------------------------------
+
+
+Q 7) The main roles in Scrum are:
+A) ScrumMaster
+B) Product Owner
+C) Team
+D) customer
+
+Ans:
+A, B and C
+
+--------------------------------------------------------------------------
+
+
+Q 8) Scrum is iterative. The iteration is called .........
+A) sprite
+B) IT1
+C) sprint
+D) sprinte
+
+Ans:
+C. Sprint
+
+--------------------------------------------------------------------------
+
+
+Q 9) The ScrumMaster and the Product Owner can be the same individual;
+A) True
+B) False
+
+Ans:
+B. False
+
+--------------------------------------------------------------------------
+
+
+Q 10) Agile Software Development is based on
+a) Incremental Development
+b) Iterative Development
+c) Linear Development
+d) Both Incremental and Iterative Development
+
+Ans:
+D. Both Incremental and Iterative Development
+
+--------------------------------------------------------------------------
+
+
+Q 11) Who prioritizes product backlog?
+a. Product owner
+b. Scrum team
+c. Scrum master
+d. All the above
+
+Ans:
+A. Product owner
+
+--------------------------------------------------------------------------
+
+
+Q 12) In agile development, lengthy documentation is created.
+a. True
+b. False
+
+Ans:
+B. False
+
+--------------------------------------------------------------------------
+
+
+Q 13) Arrange the following scrum practices according to the order in which
+they are carried out.
+1. Sprint planning
+2. Daily scrum meet
+3. Sprint retrospective meet
+4. Sprint review meet
+5. Sprint
+
+a. 1, 5, 2, 3, 4
+b. 1, 5, 2, 4, 3
+c. 1, 2, 5, 4, 3
+d. 1, 3, 2, 4, 5
+
+Ans:
+B. 1, 5, 2, 4, 3
+
+--------------------------------------------------------------------------
+
+
+Q 14) Agile is a ______ .
+a. Sequential
+b. Iterative
+c. Incremental
+d. Both b & c
+
+Ans:
+D. Both b & c
+
+--------------------------------------------------------------------------
+
+
+Q 15) What are the advantages of Agile Testing?
+a. Saves time
+b. Requires less planning and creates less documentation
+c. Regular feedback from end users
+d. Solves issues in advance by daily meeting
+e. All the above
+
+Ans:
+E. All the above

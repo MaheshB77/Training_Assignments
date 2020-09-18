@@ -37,7 +37,7 @@ class Logical2 {
             System.out.println(n2Result);
             System.out.println(n3Result);
         }
-
+        sc.close();
     }
 
     static void question2() {
