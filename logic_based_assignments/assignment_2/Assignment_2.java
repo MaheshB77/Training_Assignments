@@ -1,3 +1,5 @@
+package assignment_2;
+
 import java.util.Scanner;
 
 class Logical2 {
