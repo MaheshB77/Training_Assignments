@@ -1,0 +1,16 @@
+{
+  "name": "assignment_1",
+  "version": "1.0.0",
+  "description": "NodeJs Assignment 1 given by Liviano",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahesh Bansode",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
